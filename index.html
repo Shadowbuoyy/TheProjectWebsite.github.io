@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: snow;
+            background-color:rgb(34, 80, 141);
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .blue {
+            margin: 0 100px 0 100px;
+            padding: 10px;
+            background-color:slategrey;
+            color: skyblue;
+        }
+        
+        .contents {
+            display: flex;
+            justify-content:space-evenly;
+        }
+        
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            font-style: italic;
+            color:seagreen;
+        }
+
+        li {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>Xavier's Blog</h1>
+    </div>
+
+    <div class="table-of-contents">
+        <h2>Table of contents</h2>
+        <ul class="contents">
+            <li><a href="#first-blogpost">First Blog</a></li>
+            <li><a href="#">Second Blog</a></li>
+        </ul>
+    </div>
+
+    <div class="blogposts">
+        <div id="first-blogpost">
+            <h3>This is my first blog post</h3>
+            <p class="blue">I'm going to start this blog by showing you some tags I've learned:</p>
+            <ul>
+                <li><em>Empathize</em></li>
+                <li><strong>Strong/Bold</strong></li>
+            </ul>
+        </div>
+
+        <div id="second-blogpost">
+            <h3>I'm going to show you some CSS styles I've learned:</h3>
+            <p>This paragraph/sentence should have the color blue on it.</p>
+        </div>
+    </div>
+
+</body>
+</html>
